@@ -54,7 +54,7 @@ docker info
 ## 6. Run Locally (Windows)
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/cloudarc-devops-assessment.git
+git clone https://github.com/chatchethu/cloudarc-devops-assessment.git
 cd cloudarc-devops-assessment
 
 py -3 -m venv .venv
@@ -157,4 +157,4 @@ docker logs cloudarc-app
 ## 14. Author and Repository
 
 Author: Your Name  
-Repository: https://github.com/YOUR_USERNAME/cloudarc-devops-assessment
+Repository: https://github.com/chatchethu/cloudarc-devops-assessment
