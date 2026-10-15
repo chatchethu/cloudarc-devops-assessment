@@ -152,9 +152,9 @@ docker logs cloudarc-app
 - **Container connectivity:** Flask binds to `0.0.0.0` so Docker port mapping works correctly.
 - **Configuration:** `APP_ENV` env var with `development` default keeps config out of code.
 - **Automated validation:** pytest + GitHub Actions runs tests before every Docker build.
-- **Reproducibility:** Version-pinned requirements and documented commands ensure consistent results.
+- **Reproducibility:** Bounded dependency version ranges (`>=min,<max`) in `requirements.txt` and documented commands ensure consistent results across environments.
 
 ## 14. Author and Repository
 
-Author: Your Name  
+Author: Chethan T  
 Repository: https://github.com/chatchethu/cloudarc-devops-assessment
